@@ -85,3 +85,50 @@ p {
     line-height: 1.4;
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* button-group */
+
+.button-group {
+    margin-top: 70px;
+}
+
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-icon,
+.button-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.button-primary {
+    background: #fff;
+    color: #8D0019;
+}
+
+.button-link {
+    color: #fff;
+}
+
+.venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood {
+    background-image: url('../img/blood.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
